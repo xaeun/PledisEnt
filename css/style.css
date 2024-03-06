@@ -695,12 +695,13 @@
     .gnb .has1 .artists_list li a:hover{
         color: #EF4035;
     }
-    .language a{
+    .language{
         display: flex;
         align-items: center;
     }
-    .language .material-icons{
-        font-size: 20px;
+    .language .material-icons a{
+        font-size: 25px;
+        color: #333;
     }
     .mo_language{
         top: 68px;
@@ -716,7 +717,7 @@
     .kor{
         display: block;
     }
-    .kor button{
+    .kor{
         font-size: 15px;
         padding: 5px;
         margin-left: 20px;
